@@ -29,7 +29,8 @@ header button {
     padding-top: 5px;
     padding-bottom: 5px;
     border-width: 0;
-    
+    font-size: 18px;
+    font-weight: bold;
 }
 button:hover {
     background-color: rgba(0, 0, 0, 0.377);
