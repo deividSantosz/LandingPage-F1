@@ -1,0 +1,452 @@
+ body {
+    max-width: 1200px;
+    background-image: url(pilotos/f11d7522-f68d-4cbb-abfa-569ad2937973.jpg);
+    margin: auto;
+}
+.logo {
+    max-width: 100%;
+    background-color: white;
+ }
+ 
+ header {
+     margin-top: 50px;
+     background-color: white;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     
+ }
+ header button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: opacity 0.3s ease; /* Adicione esta linha para a transição de opacidade */
+}
+
+header button:hover {
+    opacity: 0.5; /* Reduza a opacidade no hover */
+}
+
+ header img {
+     max-width: 100%;
+ }
+ 
+ a {
+     color: black;
+     text-decoration: none;
+ }
+
+ h1 {
+    font-size: 50px;
+    margin-left: 100px;
+    width: 1000px;
+    color: white;
+    text-align: center;
+    background-color:black;
+    white-space: nowrap;
+ }
+
+.Ascari {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.Ascari img {
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.Ascari h3 {
+    font-size: 40px;
+    margin-bottom: 500px;
+    color: white;
+    text-align: center;
+}
+
+.Ascari p {
+    color: white;
+    font-size: 18px;
+    margin-top: -600px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgAscari {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.imgAscari img {
+    width: 600px;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+}
+.imgAscari img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+}
+.pLauda {
+    margin-left: 300px;
+    width: 700px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    white-space: nowrap;
+}
+.Lauda {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.Lauda img {
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.Lauda h3 {
+    font-size: 40px;
+    margin-bottom: 500px;
+    color: white;
+    text-align: center;
+}
+
+.Lauda p {
+    color: white;
+    
+    font-size: 18px;
+    margin-top: -550px; 
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgLauda {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: -100px;
+}
+
+.imgLauda img {
+    max-width: 100%;
+    height: 600px;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+}
+.imgLauda img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+}
+
+
+.pbrasileiros {
+    margin-left: 40px;
+    width: 1050px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+.barrichello {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.barrichello h3 {
+    font-size: 40px;
+    margin-bottom: 350px;
+    color: white;
+    text-align: center;
+}
+
+.barrichello img {
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.barrichello p {
+    color: white;
+    font-size: 18px;
+    margin-top: -350px; 
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgBarrichello {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+.imgBarrichello img {
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+}
+
+.imgBarrichello img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+}
+.massa {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.massa p {
+    color: white;
+    font-size: 18px;
+    margin-top: -350px; 
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.massa img {
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.massa h3 {
+    font-size: 40px;
+    margin-bottom: 350px;
+    color: white;
+    text-align: center;
+}
+
+.imgMassa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+.imgMassa img {
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; 
+}
+
+.imgMassa img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+}
+
+.maior {
+    margin-left: 150px;
+    width: 900px;
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+.Michael {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.Michael h3 {
+    font-size: 40px;
+    margin-bottom: 350px;
+    color: white;
+    text-align: center;
+}
+
+.Michael p {
+    color: white;
+    font-size: 18px;
+    margin-top: -350px; 
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Michael img {
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.imgMichael {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+.imgMichael img {
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; 
+}
+.imgMichael img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+}
+
+.ultimo {
+    margin-left: 220px;
+    width: 700px;
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+
+.kimmi {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.kimmi img {
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.kimmi h3 {
+    font-size: 40px;
+    margin-bottom: 350px;
+    color: white;
+    text-align: center;
+}
+
+.kimmi p {
+    color: white;
+    font-size: 18px;
+    margin-top: -320px; 
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgKimmi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+.imgKimmi img {
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; 
+}
+
+.imgKimmi img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+}
+
+.mencao {
+    margin-left: 220px;
+    width: 700px;
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+
+.Vettel {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.Vettel img {
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.Vettel p {
+    color: white;
+    font-size: 18px;
+    margin-top: -320px; 
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Vettel h3 {
+    font-size: 40px;
+    margin-bottom: 350px;
+    color: white;
+    text-align: center; 
+}
+
+.imgVettel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+.imgVettel img {
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; 
+}
+
+.imgVettel img:hover{
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+}
+
+footer {
+    display: grid;
+}
+
+footer p {
+    margin-left: 180px ;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 900px;
+    white-space: nowrap;
+}
