@@ -73,8 +73,6 @@ nav p {
     margin-top: -160px;
     white-space: nowrap;
     margin-left: 30px;
-  
-   
 }
 
 nav img {
@@ -86,27 +84,18 @@ main {
 }
 
 .class1{
-    margin-top: 500px;
+    margin-top: 200px;
     color: white;
     text-align: center;
     font-size: 60px;
     white-space: nowrap;
+    margin-bottom: 50px;
 }
 main h3 {
     
     color: white;
     text-align: center;
     font-size: 60px;
-}
-
-.parallax {
-    min-height: 900px;
-    width: 100%;
-    background-image:url(img/ferrari-f1-charles-l);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
 }
 
 .inicio {
@@ -118,15 +107,16 @@ main h3 {
 }
 
 .inicio p {
-    margin-left: 15px;
-    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    margin-top: -300px;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
 }
 
 .inicio h3 {
+    margin-top: 20px;
     color: white;
 }
 
@@ -141,16 +131,16 @@ main h3 {
 }
 
 .auge h3 {
+    margin-top: 20px;
     color: white;
 }
 .auge p {
-    margin-top: 40px;
+    font-size: 20px;
     color: white;
-    margin-left: 15px;
+    margin-top: -260px;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
 }
 .jejuns {
     margin-top: 50px;
@@ -166,15 +156,16 @@ main h3 {
 }
 
 .jejuns p {
-    margin-left: 15px;
-    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    margin-top: -260px;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
 }
 
 .jejuns h3 {
+    margin-top: 20px;
     color: white;
 }
 
@@ -182,6 +173,7 @@ main h3 {
     display: grid;
     background-color: red;
     grid-template-columns: 1fr 1fr;
+  
 }
 
 .momento img {
@@ -190,17 +182,18 @@ main h3 {
 }
 
 .momento h3 {
+    margin-top: 20px;
     color: white;
 }
 
 .momento p {
     font-size: 20px;
     color: white;
-    margin-left: 15px;
-    margin-top: 40px;
+    margin-top: -260px;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+
 }
 
 footer {

@@ -1,7 +1,7 @@
  body {
     max-width: 1200px;
-    background-image: url(pilotos/f11d7522-f68d-4cbb-abfa-569ad2937973.jpg);
     margin: auto;
+    background-image: url(pilotos/fundo.jpg);
 }
 .logo {
     max-width: 100%;
@@ -40,12 +40,13 @@ header button:hover {
  }
 
  h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.349);
     font-size: 50px;
     margin-left: 100px;
-    width: 1000px;
+    width: 1100px;
     color: white;
     text-align: center;
-    background-color:black;
     white-space: nowrap;
  }
 
@@ -75,7 +76,7 @@ header button:hover {
 .Ascari p {
     color: white;
     font-size: 18px;
-    margin-top: -600px;
+    margin-top: -650px;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
@@ -99,7 +100,8 @@ header button:hover {
     margin-left: 300px;
     width: 700px;
     text-align: center;
-    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.349);
     color: white;
     font-size: 50px;
     white-space: nowrap;
@@ -158,7 +160,8 @@ header button:hover {
 .pbrasileiros {
     margin-left: 40px;
     width: 1050px;
-    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.349);
     color: white;
     font-size: 50px;
     white-space: nowrap;
@@ -267,7 +270,8 @@ header button:hover {
     width: 900px;
     text-align: center;
     font-size: 60px;
-    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.349);
     color: white;
 }
 .Michael {
@@ -324,7 +328,8 @@ header button:hover {
     width: 700px;
     text-align: center;
     font-size: 60px;
-    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.349);
     color: white;
 }
 
@@ -383,7 +388,8 @@ header button:hover {
     width: 700px;
     text-align: center;
     font-size: 60px;
-    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.349);
     color: white;
 }
 

@@ -1,0 +1,542 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-image: url(titulos/background.jpg);
+  
+}
+
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+header {
+    margin-top: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    
+}
+header button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: opacity 0.3s ease; /* Adicione esta linha para a transição de opacidade */
+}
+
+header button:hover {
+    opacity: 0.5; /* Reduza a opacidade no hover */
+}
+header img {
+    max-width: 100%;
+}
+
+h1 {
+    width: 1180px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.349);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.timeline {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-left: 3px solid black;
+    position: relative;
+  }
+  
+  .event {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .date {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    background: black;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  .description1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description1 img {
+    margin-top: 30px;
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+  .description1 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description1 h2 {
+    
+    margin-top: -15px;
+    white-space: nowrap;
+  }
+  .description1 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    margin-top: 40px;
+    margin-left: -550px;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .description2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description2 img {
+    margin-top: 30px;
+    max-width: 180%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description2 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+
+  .description2 h2 {
+    margin-left: -300px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description2 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -600px;
+    text-align: justify;
+    
+  }
+  .description3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description3 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description3 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description3 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description3 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -440px;
+    text-align: justify;
+  }
+
+  .description4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description4 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description4 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description4 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description4 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -550px;
+    text-align: justify;
+  }
+  .description5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description5 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description5 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description5 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description5 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -480px;
+    text-align: justify;
+  }
+  .description6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description6 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description6 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description6 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description6 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -440px;
+    text-align: justify;
+  }
+  .description7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description7 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description7 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description7 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description7 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -440px;
+    text-align: justify;
+  }
+  .description8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description8 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description8 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description8 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description8 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -440px;
+    text-align: justify;
+  }
+
+  .description9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description9 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description9 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description9 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description9 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -440px;
+    text-align: justify;
+  }
+  .description10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description10 img {
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description10 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description10 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description10 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -570px;
+    text-align: justify;
+  }
+
+  .description11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description11 img {
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 60%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description11 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description11 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description11 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -900px;
+    text-align: justify;
+  }
+  .description12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description12 img {
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description12 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description12 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description12 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -450px;
+    text-align: justify;
+  }
+  .description13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description13 img {
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description13 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description13 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description13 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -450px;
+    text-align: justify;
+  }
+
+  .description14 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description14 img {
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 120%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description14 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description14 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description14 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -450px;
+    text-align: justify;
+  }
+  .description15 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .description15 img {
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description15 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description15 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description15 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -450px;
+    text-align: justify;
+  }
+
+.fim {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+}
