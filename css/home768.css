@@ -1,28 +1,39 @@
-@media (max-width:720px){
 
-   .logoFerrari {
-    max-width: 100%;
-    margin-left: 40px;
-   }
-   .nav {
-    grid-template-columns: 1fr 1fr;
-   }
-   .nav h2 {
-    font-size: 20px;
-   }
-   .nav p {
-    margin-left: 10px;
-   
-   }
-    .header{
-        grid-template-columns: 60% auto;
+    
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
-    .header img{
-        height: 100%;
+
+    .logoFerrari {
+        max-width: 80px;
+    }
+    .textApresentation {
+        width: 100%;
+    }
+
+    header h2 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    } 
+    
+    header p {
+        font-size: 20px;
+    } 
+
+    .imgHeader {
+       display: flex; 
+       align-items: center;
+    }
+    .imgHeader img{
+        margin: 0 auto;  
+        width: 400px;
     }
 
     .inicio {
         grid-template-columns: 1fr 1fr;
+        width: 100%;
     }
 
     .inicio h3 {
@@ -35,6 +46,7 @@
   
     .inicio img {
         max-width: 100%;
+
     }
     .auge{
         grid-template-columns: 1fr 1fr;
@@ -50,12 +62,13 @@
     }
 
     .class1 {
+        margin: 40px 0; 
+        text-align: start;
         font-size: 30px;
     }
 
     .jejuns{
         grid-template-columns: 1fr 1fr;
-        
     }
     .jejuns h3 {
         font-size: 12px;

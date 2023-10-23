@@ -1,7 +1,7 @@
 body {
     max-width: 1200px;
     margin: auto;
-    background-image: url(titulos/background.jpg);
+    background-image: url(background.jpg);
   
 }
 
@@ -40,7 +40,7 @@ header img {
 }
 
 h1 {
-    width: 1180px;
+    width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(0, 0, 0, 0.349);
     text-align: center;
@@ -399,13 +399,13 @@ h1 {
   .description11 h2 {
     margin-left: 10px;
     margin-top: 10px;
-    white-space: nowrap;
+  
   }
   .description11 p {
     background-color: rgba(255, 0, 0, 0.555);
     font-size: 20px;
     margin-top: 70px;
-    margin-left: -900px;
+    margin-left: -450px;
     text-align: justify;
   }
   .description12 {
@@ -533,7 +533,37 @@ h1 {
     margin-left: -450px;
     text-align: justify;
   }
+  .description16 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    color: white;
+  }
 
+  .description16 img {
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 100%;
+    border: 1px solid transparent; /* Adicione uma borda transparente para começar */
+    transition: border 0.3s, transform 0.3s; /* Adicione transições para a borda e a transformação */
+  }
+
+  .description16 img:hover {
+    border: 5px solid red; /* Altere a cor da borda no hover para preto */
+    transform: scale(1.1); /* Aplique um efeito de escala para aumentar a imagem em 10% no hover */
+  }
+  .description16 h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  .description16 p {
+    background-color: rgba(255, 0, 0, 0.555);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -450px;
+    text-align: justify;
+  }
 .fim {
     color: white;
     font-size: 30px;

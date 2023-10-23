@@ -1,0 +1,98 @@
+@media (max-width:480px){
+
+    
+
+        .logoFerrari {
+         max-width: 100%;
+        }
+        .nav {
+         background-color: blue;
+         grid-template-columns: 1fr 1fr;
+         width: 720px;
+        }
+        .nav h2 {
+         font-size: 20px;
+        }
+        .nav p {
+         margin-left: 10px;
+        
+        }
+        .nav img {
+       
+         grid-column-start: 1;
+         grid-column-end: 4;
+         justify-self: center;
+        }
+         .header{
+             grid-template-columns: 1fr 1fr;
+         }
+         .header img{
+             height: 100%;
+         }
+     
+         .inicio {
+             grid-template-columns: 1fr 1fr;
+             width: 100%;
+         }
+     
+         .inicio h3 {
+             font-size: 12px;
+         }
+         .inicio p {
+             margin-top: -100px;
+             font-size: 7px;
+         }
+       
+         .inicio img {
+             max-width: 100%;
+     ;
+         }
+         .auge{
+             grid-template-columns: 1fr 1fr;
+             
+         }
+         .auge h3 {
+             font-size: 12px;
+         }
+     
+         .auge p {
+            margin-top: -100px;
+             font-size: 7px;
+         }
+     
+         .class1 {
+             font-size: 20px;
+         }
+     
+         .jejuns{
+             grid-template-columns: 1fr 1fr;
+             
+         }
+         .jejuns h3 {
+             font-size: 12px;
+         }
+     
+         .jejuns p {
+            margin-top: -100px;
+             font-size: 7px;
+         }
+     
+         
+         .momento{
+             grid-template-columns: 1fr 1fr;
+             
+         }
+         .momento h3 {
+             font-size: 12px;
+         }
+     
+         .momento p {
+            margin-top: -100px;
+             font-size: 10px;
+         }
+     
+         footer p{
+             font-size: 20px;
+         }
+     }
+    

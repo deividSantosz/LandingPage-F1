@@ -1,0 +1,142 @@
+@media (max-width: 480px) {
+
+   
+    
+    h1 {
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .description1 h2 {
+        font-size: 20px;
+    }
+
+    .description1 p {
+        font-size: 20px;
+        margin-left: -450px;
+    }
+    .description1 img {
+        width: 400px;
+    }
+    .description2 h2 {
+        margin-left: -110px;
+    }
+    .description2 p {
+        margin-left: -230px; 
+        font-size: 20px;
+    }
+    .description2 img {
+        width: 500px;
+    }
+    .description3 h2 {
+        margin-left: -10px;
+    }
+    .description3 p {
+        margin-left: -220px; 
+    }
+    .description4 h2 {
+        font-size: 17px;
+    }
+    .description4 p {
+        font-size: 15px;
+        margin-left: -400px;
+    }
+
+    .description4 img {
+        width: 400px;
+    }
+    .description5 img {
+        width: 400px;
+
+    }
+    .description5 h2 {
+      font-size: 20px;
+
+    }
+    .description5 p {
+        margin-left: -400px;
+
+    }
+    .description6 h2 {
+        margin-left: -10px;
+    }
+    .description6 p {
+        margin-left: -320px; 
+    }
+
+    .description7 h2 {
+        margin-left: -10px;
+    }
+    .description7 p {
+        margin-left: -350px; 
+    }
+
+    .description8 h2 {
+        margin-left: -10px;
+    }
+    .description8 p {
+        margin-left: -380px; 
+    }
+
+    .description9 h2 {
+        margin-left: -10px;
+    }
+    .description9 p {
+        margin-left: -350px; 
+    }
+
+    .description10 p {
+        font-size: 15px;
+        margin-left: -430px;
+        width: 470px;
+    }
+
+    .description10 img {
+         width: 400px;
+    }
+
+    .description10 h2 {
+       font-size: 17px;
+   }
+    .description11 p {
+        font-size: 20px;
+        margin-left: -350px;
+    }
+    .description11 h2 {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
+    .description11 img {
+      width: 450px;
+    }
+    .description12 h2 {
+        margin-left: -10px;
+    }
+    .description12 p {
+        margin-left: -330px; 
+    }
+    .description13 h2 {
+        margin-left: -10px;
+    }
+    .description13 p {
+        margin-left: -320px; 
+    }
+    .description14 h2 {
+        margin-left: -10px;
+    }
+    .description14 p {
+        margin-left: -350px; 
+    }
+   .description15 p {
+    margin-left: -470px;
+
+   }
+   .description15 img {
+    width: 400px;
+   }
+
+   .description16 p {
+   
+    margin-left: -420px;
+   }
+}

@@ -1,0 +1,174 @@
+/* Estilos para telas com largura máxima de 720px */
+@media (max-width: 768px) {
+ 
+
+header {
+    width: 767px;
+}
+h1 {
+    font-size: 30px;
+    text-align: left;
+    width: 650px;
+}
+
+.Ascari {
+    width: 767px;  
+}
+
+.Ascari h3 {
+    font-size: 20px;
+    
+}
+
+.Ascari p {
+  font-size: 15px;
+ 
+    
+}
+.imgAscari {
+    width: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.imgAscari img {
+    width: 350px;
+}
+.pLauda {
+    font-size: 35px;
+    margin-left: 150px;
+    width: 450px;
+}
+
+.Lauda {
+    width: 767px;
+}
+.Lauda h3 {
+    font-size: 20px;
+}
+.Lauda p {
+    font-size: 15px;
+    
+}
+.imgLauda {
+    width: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.imgLauda img {
+    height: 350px;
+    width: 1000px;  
+}
+
+.pbrasileiros {
+    font-size: 35px;
+    text-align: left;
+    width: 720px;
+}
+
+.barrichello {
+    width: 767px;
+}
+
+.barrichello h3 {
+    font-size: 20px;
+}
+
+.barrichello p {
+    font-size: 15px;
+}
+.barrichello img {
+    height: 300px;
+    width: 1000px;  
+}
+
+.imgBarrichello {
+    width: 700px;
+}
+.massa {
+    width: 767px;
+}
+.massa h3 {
+    font-size: 20px;
+}
+.massa p {
+    font-size: 15px;
+}
+.imgMassa {
+    width: 650px;
+}
+.maior {
+    font-size: 35px;
+    margin-left: 150px;
+    width: 550px;
+}
+
+.Michael {
+    width: 767px;
+}
+
+.Michal h3 {
+    font-size: 20px;
+}
+
+.Michael p {
+    font-size: 15px;
+}
+.Michael img {
+    width: 400px;
+}
+
+.imgMichael {
+    width: 700px;
+}
+.ultimo {
+    font-size: 35px;
+    margin-left: 150px;
+    width: 550px;
+}
+.kimmi {
+    width: 767px;
+}
+
+.kimmi h3 {
+    font-size: 20px;
+}
+
+.kimmi p {
+    font-size: 15px;
+}
+.imgKimmi {
+    width: 700px;
+}
+.mencao {
+    font-size: 35px;
+    margin-left: 150px;
+    width: 550px;
+}
+.Vettel {
+    width: 767px;
+}
+.Vettel h3 {
+    font-size: 20px;
+}
+
+.Vettel p {
+    font-size: 15px;
+}
+
+.imgVettel {
+    width: 700px;
+}
+
+footer {
+    width: 767px;
+}
+
+footer p {
+    font-size: 30px;
+    width: 550px;
+}
+}
